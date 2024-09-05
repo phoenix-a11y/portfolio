@@ -1,0 +1,106 @@
+
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    /* background-color: #333; */
+    text-align: center;
+    /* padding: 100px 0; */
+    /* z-index: 100; */
+
+}
+body {
+    background-image: url(Designer\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 1300px 800px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:  100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 5;
+}
+/* html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.contain {
+    text-align: center;
+}
+
+.landingpage {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.background {
+    width: 600px;
+    height: 320px;
+    background-color: #3f3a41;
+    margin: 20px auto 0;
+    opacity: 80%;
+    color: rgb(255, 255, 255);
+    margin-top:150px;
+}
+.size {
+    font-size: large;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+button {
+    color: #3f3a41;
+    background-color: rgb(255, 94, 35);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+button:hover {
+    color: rgb(255, 94, 35);
+    background-color: #3f3a41;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.logos img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px;
+    filter: invert(100%);
+}
+
+
+
+
+
+
